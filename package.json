@@ -1,0 +1,25 @@
+{
+  "name": "chat-application-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramiz181/Chat-Application-Socket.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ramiz181/Chat-Application-Socket.io/issues"
+  },
+  "homepage": "https://github.com/ramiz181/Chat-Application-Socket.io#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
