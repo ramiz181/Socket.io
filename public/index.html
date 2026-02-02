@@ -22,8 +22,15 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
-        /*const socket = io()*/
+
+        // this guarantee connectivity ===> with polling enable, communication can continue if websocket fails to connect or ...
         const socket = io()
+        
+        // this will direct create webSocket connection 
+        // not recommended, cuz agr webSocket by any reason disconnect ho gya ya establish he nhi hua to to polling work kry ga 
+        /* const socket = io({
+            transports: ["websocket"]
+            }) */
 
         const msg_area = document.getElementById('msg-area')
         const form = document.getElementById('form')
